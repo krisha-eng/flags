@@ -47,6 +47,27 @@ mark{
   border-radius: 5px;
 }
 
+#searchBar {
+  width: 400px;
+  height: 32px;
+  border-radius: 3px;
+  border: 1px solid #eaeaea;
+  padding: 5px 10px;
+  font-size: 12px;
+  margin-bottom: 30px;
+}
+
+#searchWrapper {
+  position: relative;
+}
+
+/* #searchWrapper::after {
+  content: '🔍';
+  position: absolute;
+  top: 10px;
+  left: 800px;
+} */
+
 /* in case we need custom styling to tippy, use below */
 /* .tippy-box[data-theme~='tomato'] {
   background-color: tomato;
